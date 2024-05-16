@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    color: rgb(255, 0, 0);
+    display: flex;
+}
+
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.text-primary {
+    color: white;
+}
+
+#navbar {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a{
+    padding: 1rem;
+    margin: 1 1rem;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(77, 77, 77);
+    border-radius: 5px;
+    color: red;
+}
+
+@media only screen and (max-width: 300px) {
+    #navbar ul {
+        margin-top: 1rem;
+    }
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-1 {
+    margin: 10px;
+    flex: 0 0 33.33%;
+    text-align: left;
+}
+
+.image-2 {
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+}
+.image-3 {
+    margin: 10px;
+    flex: 1;
+    text-align: right;
+}
+
+.image img {
+    max-width: 100%; 
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.gallery-title {
+    text-align: center;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.l-heading {
+    font-size: 10rem;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+.text-primary {
+    color: var(--primary-color)
+}
+
+.container {
+    max-width: 1000px;
+    margin: 3rem 0;
+    padding: 3 2rem;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m-heading {
+    font-size: 5rem;
+    margin-bottom: 0.5rem; line-height: 1;
+    line-height: 1.1;
+}
+
+.k-heading {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+}
+
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-container {
+    text-align: center;
+}
+
+.bg-light {
+    background: white;
+    color: black;
+}
+
+.bg-dark {
+    background: black;
+    color: white;
+    padding: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
